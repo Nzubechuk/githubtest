@@ -1,0 +1,290 @@
+body{
+    background: whitesmoke;
+    margin: 0;
+}
+
+.para-container{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    padding: 1em;
+}
+
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.8em;
+}
+
+nav{
+    display: none;
+}
+
+.menu{
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+    right: 0%;
+    border: 2px solid black;
+}
+
+.cart{
+    height: 2em;
+    width: 2em;
+    float: right;
+    color: greenyellow;
+    margin-left: .8em;
+    border: 2px solid rgb(15, 238, 15);
+}
+
+.nav-container{
+    display: flex;
+    clear: right;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+    
+}
+
+.sports-watch{
+    height: 300px;
+    width: 500px;
+}
+
+.hero-section{
+    text-align: center;
+}
+
+.main-header{
+    font-weight: bold;
+    color: black;
+    margin-bottom: .5em;
+    font-size: 2.5em;
+}
+
+.finish{
+    font-size: 1.5em;
+}
+
+.primary-cta{
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    margin-bottom: 8em;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fix, minmax(19rem,1fr));
+}
+
+.watches{
+    display: flex;
+}
+
+.main-cta{
+    background: sandybrown;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    padding: 2em, 1em;
+}
+
+.activity{
+    height: 200px;
+    width: 300px;
+    margin-top: -5em;
+    color: sandybrown; 
+    position: relative;
+    float: right;
+     
+}
+
+.sub-paragraph{
+  font-weight: bold;
+  font-size: 1.5em;  
+}
+
+.secondary-main-cta{
+    background: rgb(150, 241, 13);
+    
+    margin-bottom: -10em;
+    width: 500px;
+    height: 200px;
+}
+
+.children{
+    color: rgb(150, 241, 13);
+    height: 100%;
+    width: 50%;
+    margin-top: -5em;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sub-paragraph2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.primary-header{
+    font-weight: bold;
+    margin-top: 3em;
+    font-size: 2em;
+}
+
+.see{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: .7em;
+}
+
+.main-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem,1fr));
+}
+
+.kids-money{
+    color: sandybrown;
+}
+
+.vision-money{
+    color: sandybrown;
+}
+
+.smart-money{
+    color: sandybrown;
+}
+
+.nordic-money{
+    color: sandybrown;
+}
+
+.secondary-header{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.see-all{
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-size: .8em;
+}
+.primary-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem,1fr));
+}
+.scale-money{
+    color: sandybrown;
+}
+.wave-money{
+    color: sandybrown;
+}
+.gun-money{
+    color: sandybrown;
+}
+.gun-go-money{
+    color: sandybrown;
+}
+
+.tertiary-container{
+    background-image: repeating-radial-gradient(white, gray 10%, white 15);
+    margin-left: 1em;
+    text-align: justify;
+}
+
+.tertiary-header{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.read{
+    padding: .3em 1em;
+    background:#008000;
+    color: white;
+    cursor: pointer;
+}
+
+.tertiary{
+    background:rgb(245, 233, 223) ;
+    margin: 3em 0em 3em 1em;
+    text-align: justify;
+}
+
+.more{
+    background: rgb(230, 227, 227);
+    padding: .3em 1em;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.contact-area{
+    background-image: url(../images/arm.jpeg);
+    background-repeat: no-repeat;
+    border: 2px solid whitesmoke;
+    padding: 25px;
+    background-size: 200%;
+}
+.sign{
+    font-size: 1.2em;
+}
+label{
+    display: block;
+    margin-bottom: .3em;
+    box-sizing: border-box;
+}
+input[type="sign up"] {
+    margin-top: .3em;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    display: block;
+    padding: .1em .2em;
+    width: 5em;
+    cursor: pointer;
+}
+.contaainer{
+    background: black;
+    text-align: center;
+    color: white;
+    margin-top: 5em;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+.footer-main{
+    list-style-type: none;
+}
+.footer-cta{
+    list-style-type: none;
+}
+.footer-list{
+    list-style-type: none;
+}
+.return{
+    list-style-type: none;
+}
+.third-footer{
+    text-align: center;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+}
